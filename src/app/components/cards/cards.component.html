@@ -1,10 +1,12 @@
 <div class="card">
-  <div class="card-header">Título</div>
+  <div class="card-header">{{title}}</div>
   <div class="card-content">
-    Conteúdo do card aqui
+    {{short_description}}
   </div>
   <div class="card-actions">
-    <button>Action 1</button>
-    <button>Action 2</button>
+    <button class="action-btn" (click)="toggleResults()">Ver Mais</button>
   </div>
+  @if (showResults) {
+    <app-card-results [image_url]="image_url" [code_url]="code_url"></app-card-results>
+  }
 </div>

@@ -1,7 +1,12 @@
 <app-header></app-header>
 <div class="home-content">
-  <h2>Welcome to My Blog</h2>
-  <p>Discover articles on various topics, from technology to lifestyle.</p>
-    <a class="btn" href="/blog">Read Our Blog</a>
-    <app-cards></app-cards>
+  <h2>Trabalhos individuais</h2>
+  @for(card of cards; track card.id) {
+    <app-cards 
+      [title]="card.title" 
+      [short_description]="card.short_description" 
+      [image_url]="card.image_url" 
+      [code_url]="card.code_url">
+    </app-cards>
+  }
 </div>

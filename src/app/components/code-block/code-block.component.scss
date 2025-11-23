@@ -1,0 +1,48 @@
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 16px;
+  background: #282a36;
+  color: #f8f8f2;
+  border-radius: 10px;
+  font-family: "Fira Code", monospace;
+}
+
+.hljs-comment {
+  color: #6272a4;
+}
+
+.hljs-string {
+  color: #f1fa8c;
+}
+
+.hljs-number {
+  color: #bd93f9;
+}
+
+.hljs-keyword {
+  color: #ff79c6;
+}
+
+.hljs-title,
+.hljs-function .hljs-title {
+  color: #8be9fd;
+}
+
+.hljs-built_in,
+.hljs-literal {
+  color: #50fa7b;
+}
+
+.hljs-symbol,
+.hljs-meta {
+  color: #ffb86c;
+}
+
+.hljs-attr {
+  color: #ffb86c;
+}
+
+.hljs-variable {
+  color: #ff5555;
+}
