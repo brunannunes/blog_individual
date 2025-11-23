@@ -48,7 +48,10 @@
                   "maximumError": "4kb"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+
+              "baseHref": "/my-blog/",
+              "deployUrl": "/my-blog/"
             },
             "development": {
               "optimization": false,
